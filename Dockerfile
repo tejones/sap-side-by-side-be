@@ -1,5 +1,5 @@
 # FROM registry.redhat.io/fuse7/fuse-java-openshift
-FROM quay.io/makentenza/fuse-java-openshift
+FROM quay.io/tejones/fuse-java-openshift
 
 USER root
 
