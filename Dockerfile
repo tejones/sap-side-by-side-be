@@ -1,5 +1,5 @@
 #FROM registry.redhat.io/fuse7/fuse-java-openshift
-FROM FROM registry.access.redhat.com/fuse7/fuse-java-openshift
+FROM registry.access.redhat.com/fuse7/fuse-java-openshift
 
 # FROM quay.io/tejones/sapfusedemo
 
