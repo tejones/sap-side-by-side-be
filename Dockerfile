@@ -1,5 +1,5 @@
-# FROM registry.redhat.io/fuse7/fuse-java-openshift
-FROM quay.io/tejones/sapfusedemo
+FROM registry.redhat.io/fuse7/fuse-java-openshift
+# FROM quay.io/tejones/sapfusedemo
 
 USER root
 
