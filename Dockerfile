@@ -1,4 +1,4 @@
-FROM quay.io/rhn_engineering_tejones/sapfusebe 
+FROM quay.io/rhn_engineering_tejones/sapfusedemo 
 
 USER root
 
