@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-# FROM FROM registry.access.redhat.com/fuse7/fuse-java-openshift
-
-FROM quay.io/tejones/sapfusedemo
-=======
-#FROM registry.redhat.io/fuse7/fuse-java-openshift
-FROM registry.access.redhat.com/fuse7/fuse-java-openshift
-
-# FROM quay.io/tejones/sapfusedemo
->>>>>>> d1f98315e416a3ac3a4614ea451bd6f7c94d3586
+FROM quay.io/rhn_engineering_tejones/sapfusebe 
 
 USER root
 
