@@ -1,1 +1,4 @@
-.history
+target/
+.project
+.settings
+.classpath

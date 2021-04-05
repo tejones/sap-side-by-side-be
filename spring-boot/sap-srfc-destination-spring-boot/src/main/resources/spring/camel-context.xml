@@ -106,7 +106,6 @@
 	    <to id="_to3" uri="log:mylogger?showAll=true"/>
         </route>
         <!-- TJ - Route for OData (camel-olingo2) Carriers access -->
-        <!-- TODO Parameterize -->
         <route id="api-route-get-sap-carriers-odata-olingo2">
             <from id="direct-api-route-get-sap-carriers-odata-olingo2" uri="direct:api-route-get-sap-carriers-odata-olingo2"/>
             <log id="_log1getodataCarriersolingo2" message="[REST] >>> Get Data from SAP Carriers via OData Olingo2"/>
@@ -128,14 +127,14 @@
     <bean id="olingo2Configuration" class="org.apache.camel.component.olingo2.Olingo2Configuration">
         <property name="httpHeaders">
             <map>
-                <entry key="Authorization" value="Basic cmljYXJkbzpSM2RoNHQxMjMh"/>
+                <entry key="Authorization" value="Basic ZGV2ZWxvcGVyOlJlZGhhdDEyMyE="/>
             </map>
         </property>
 	<property name="serviceUri" value="http://${S4HANA_HOST}:${S4HANA_PORT}/sap/opu/odata/sap/ZFLIGHT_PROJECT_SRV/"/>    
         <property name="contentType" value="application/json;charset=utf-8"/>
     </bean>
 
-    <bean id="olingo2" class="org.apache.camel.component.olingo2.Olingo2Component">
+    <bean id="olingo2" class="org.apache.camel.component.olingo2.Olingo2Component">     
         <property name="configuration" ref="olingo2Configuration" />
     </bean>
     
