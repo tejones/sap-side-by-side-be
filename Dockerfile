@@ -1,4 +1,4 @@
-FROM quay.io/rhn_engineering_tejones/sapfusebe 
+FROM registry.access.redhat.com/fuse7/fuse-java-openshift
 
 USER root
 
